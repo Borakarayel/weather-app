@@ -1,0 +1,47 @@
+body {
+  background-image: URL("./img/pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  gap: 0.5rem;
+}
+
+#mainbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 22rem;
+  height: 35rem;
+  background: rgba(34, 174, 234, 0.5);
+  color: whitesmoke;
+  border-radius: 4%;
+}
+
+.mainbox1 > * {
+  margin: 10px;
+}
+.mainbox2 {
+}
+.mainbox3 {
+}
+.details-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+#details {
+  width: 150px;
+  height: 40px;
+
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+#temp {
+  font-size: 75px;
+}
