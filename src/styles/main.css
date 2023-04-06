@@ -1,21 +1,27 @@
 body {
-  background-image: URL("./img/pattern.jpg");
+  /* background-image: url("~../img/pattern.jpg"); */
+  background-color: darkcyan;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 120%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   box-sizing: border-box;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+
+img {
+  height: 200px;
+  width: 200px;
 }
 
 #mainbox {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 22rem;
+  width: 20rem;
   height: 35rem;
-  background: rgba(34, 174, 234, 0.5);
+  background: rgba(103, 185, 220, 0.5);
   color: whitesmoke;
   border-radius: 4%;
 }
@@ -35,7 +41,7 @@ body {
   gap: 4px;
 }
 #details {
-  width: 150px;
+  width: 120px;
   height: 40px;
 
   background-color: aliceblue;
