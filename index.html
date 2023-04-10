@@ -5,29 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How is the weather?</title>
-  <script defer src="bundleb08307762ede57b2a108.js"></script></head>
+  <script defer src="bundleab5a777ac20a562d646f.js"></script></head>
   <body id="bodyid">
-    <img id="image" src="" alt="" />
-    <div class="mainbox1" id="mainbox">
-      <input type="text" id="searchbox" />
-      <button type="submit">Go!</button>
-      <h3 class="info">Local Time</h3>
-      <h3 class="info">Weather Status</h3>
-      <h1 class="info">City, Country</h1>
-      <p class="info" id="temp">30°C</p>
-      <div class="details-box">
-        <div id="details"></div>
-        <div id="details"></div>
-        <div id="details"></div>
-        <div id="details"></div>
-        <div id="details"></div>
-        <div id="details"></div>
-        <div id="details"></div>
-        <div id="details"></div>
+    <div class="mainbox" id="mainbox1">
+      <input
+        type="text"
+        class="info"
+        id="searchbox"
+        placeholder="type a city"
+      />
+      <button type="submit" class="info" id="submitId">Find!</button>
+      <h4 class="info" id="localDate">Local Date</h4>
+      <h4 class="info" id="localTime">Local Time</h4>
+      <h2 class="info" id="weatherInfoId">Weather Status</h2>
+      <h1 class="info" id="cityId">City</h1>
+      <h1 class="info" id="countryId">Country</h1>
+      <div class="container">
+        <img id="dayImg" />
+        <p class="info" id="temp"></p>
+        <img id="nightImg" />
+      </div>
+      <div class="container">
+        <div class="extra">
+          <img alt="extra info image" class="extraInfo" id="extrainfo1" />
+          <div class="column">
+            <p class="infoTitle">Wind:</p>
+            <p class="infoApi" id="infoApi1"></p>
+          </div>
+        </div>
+        <div class="extra">
+          <img alt="extra info image" class="extraInfo" id="extrainfo2" />
+          <div class="column">
+            <p class="infoTitle">Wind Direction:</p>
+            <p class="infoApi" id="infoApi2"></p>
+          </div>
+        </div>
+        <div class="extra">
+          <img alt="extra info image" class="extraInfo" id="extrainfo3" />
+          <div class="column">
+            <p class="infoTitle">Feels Like:</p>
+            <p class="infoApi" id="infoApi3"></p>
+          </div>
+        </div>
+        <div class="extra">
+          <img alt="extra info image" class="extraInfo" id="extrainfo4" />
+          <div class="column">
+            <p class="infoTitle">Humidity:</p>
+            <p class="infoApi" id="infoApi4"></p>
+          </div>
+        </div>
+        <div class="extra">
+          <img alt="extra info image" class="extraInfo" id="extrainfo5" />
+          <div class="column">
+            <p class="infoTitle">Cloud:</p>
+            <p class="infoApi" id="infoApi5"></p>
+          </div>
+        </div>
+        <div class="extra">
+          <img alt="extra info image" class="extraInfo" id="extrainfo6" />
+          <div class="column">
+            <p class="infoTitle">UV index:</p>
+            <p class="infoApi" id="infoApi6"></p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="mainbox2" id="mainbox">2 333333</div>
-    <div class="mainbox3" id="mainbox">3</div>
+    <div class="mainbox" id="mainbox2">
+      <div class="daily" id="day1">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+      <div class="daily" id="day2">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+      <div class="daily" id="day3">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+      <div class="daily" id="day4">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+      <div class="daily" id="day5">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+      <div class="daily" id="day6">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+      <div class="daily" id="day7">
+        <img src="" alt="" id="minDayImg" />
+        <h5 class="infoTitle"></h5>
+        <p class="infoApiDaily"></p>
+      </div>
+    </div>
+    <div class="mainbox" id="mainbox3"></div>
   </body>
 </html>
