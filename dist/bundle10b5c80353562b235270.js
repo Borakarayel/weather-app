@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  /* background-image: url(\"~../img/pattern.jpg\"); */\n  background-color: grey;\n  background-repeat: no-repeat;\n  background-size: 100% 120%;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  box-sizing: border-box;\n  gap: 1rem;\n  margin: 4rem 1rem 0rem 1rem;\n}\n\n.info {\n  margin: 0px 10px 0px 10px;\n}\n\n#cityId {\n  margin-top: 10px;\n}\n\n#submitId,\n#searchbox {\n  margin: 10px 10px 5px 10px;\n  height: 2rem;\n  font-size: medium;\n  background-color: antiquewhite;\n}\n\n#temp {\n  font-size: 75px;\n  display: contents;\n}\n\n#dayImg,\n#nightImg {\n  width: 100px;\n  height: 110px;\n  display: block;\n}\n\n.container {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n\n.extra {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 165px;\n  height: 60px;\n  gap: 2px;\n}\n\n.extraInfo {\n  width: 50px;\n  height: 50px;\n  background-size: 100% 100%;\n}\n\n.infoApi {\n  font-weight: 800;\n}\n\n.column .column > p {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: baseline;\n}\n\n.column p {\n  margin: 3px;\n}\n\n.daily {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 200px;\n  height: 40px;\n  background-color: aliceblue;\n}\n\n.daily #dayImg {\n  width: 30px;\n  height: 30px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,kDAAkD;EAClD,sBAAsB;EACtB,4BAA4B;EAC5B,0BAA0B;EAC1B,aAAa;EACb,eAAe;EACf,uBAAuB;EACvB,sBAAsB;EACtB,SAAS;EACT,2BAA2B;AAC7B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;AAClB;;AAEA;;EAEE,0BAA0B;EAC1B,YAAY;EACZ,iBAAiB;EACjB,8BAA8B;AAChC;;AAEA;EACE,eAAe;EACf,iBAAiB;AACnB;;AAEA;;EAEE,YAAY;EACZ,aAAa;EACb,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,QAAQ;AACV;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,0BAA0B;AAC5B;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,2BAA2B;EAC3B,qBAAqB;AACvB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,2BAA2B;AAC7B;;AAEA;EACE,WAAW;EACX,YAAY;AACd","sourcesContent":["body {\n  /* background-image: url(\"~../img/pattern.jpg\"); */\n  background-color: grey;\n  background-repeat: no-repeat;\n  background-size: 100% 120%;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  box-sizing: border-box;\n  gap: 1rem;\n  margin: 4rem 1rem 0rem 1rem;\n}\n\n.info {\n  margin: 0px 10px 0px 10px;\n}\n\n#cityId {\n  margin-top: 10px;\n}\n\n#submitId,\n#searchbox {\n  margin: 10px 10px 5px 10px;\n  height: 2rem;\n  font-size: medium;\n  background-color: antiquewhite;\n}\n\n#temp {\n  font-size: 75px;\n  display: contents;\n}\n\n#dayImg,\n#nightImg {\n  width: 100px;\n  height: 110px;\n  display: block;\n}\n\n.container {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n\n.extra {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 165px;\n  height: 60px;\n  gap: 2px;\n}\n\n.extraInfo {\n  width: 50px;\n  height: 50px;\n  background-size: 100% 100%;\n}\n\n.infoApi {\n  font-weight: 800;\n}\n\n.column .column > p {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: baseline;\n}\n\n.column p {\n  margin: 3px;\n}\n\n.daily {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 200px;\n  height: 40px;\n  background-color: aliceblue;\n}\n\n.daily #dayImg {\n  width: 30px;\n  height: 30px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  background-color: black;\n}\n\nbody {\n  /* background-image: url(\"~../img/pattern.jpg\"); */\n  background-color: black, rgb(36, 26, 91);\n  background-repeat: no-repeat;\n  background-size: 100% 120%;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  box-sizing: border-box;\n  gap: 1rem;\n  margin: 4rem 1rem 0rem 1rem;\n}\n\n.info {\n  margin: 0px 10px 0px 10px;\n}\n\n#cityId {\n  margin-top: 10px;\n}\n\n#submitId,\n#searchbox {\n  margin: 10px 10px 5px 10px;\n  height: 2rem;\n  font-size: medium;\n  background-color: antiquewhite;\n}\n\n.mainbox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 22rem;\n  height: 35rem;\n  background: rgba(103, 185, 220, 0.5);\n  color: antiquewhite;\n  border-radius: 4%;\n}\n\n#temp {\n  font-size: 75px;\n  display: contents;\n}\n\n#dayImg,\n#nightImg {\n  width: 100px;\n  height: 110px;\n  display: block;\n}\n\n.container {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n\n.extra {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 165px;\n  height: 60px;\n  gap: 5px;\n}\n\n.extraInfo {\n  width: 50px;\n  height: 50px;\n  background-size: 100% 100%;\n  box-shadow: 5px 5px #3b356050;\n}\n\n.infoApi {\n  font-weight: 800;\n}\n\n.column .column > p {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: baseline;\n}\n\n#mainbox2 {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.column p {\n  margin: 3px;\n}\n\n.daily {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  width: 90%;\n  height: 50px;\n  padding: 5px;\n  background-color: rgba(52, 52, 254, 0.22);\n  margin: 10px 5px 10px 5px;\n  border-radius: 2%;\n  box-shadow: 5px 5px #3b356050;\n  font-size: large;\n}\n\n.daily img {\n  width: 60px;\n  height: 60px;\n}\n\n#favBox,\n#favBoxBtn {\n  margin: 3% 0% 0% 0%;\n  display: inline;\n  background-color: antiquewhite;\n}\n\n#mainbox3 {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  gap: 3%;\n}\n\n.favCities {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  gap: 3%;\n  width: 90%;\n  height: 18%;\n  background-color: rgb(247, 198, 134);\n  box-shadow: 5px 5px #3b356050;\n  cursor: pointer;\n  color: antiquewhite;\n}\n\n#favImg {\n  height: 70%;\n  width: auto;\n}\n\n#ulid {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  gap: 3%;\n  padding: 5% 5% 5% 5%;\n\n  width: 87%;\n  height: 80%;\n}\n\n.close {\n  color: black;\n  font-size: 30px;\n  background-color: antiquewhite;\n  border-radius: 50%;\n  right: 0;\n  top: 0;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;AACzB;;AAEA;EACE,kDAAkD;EAClD,wCAAwC;EACxC,4BAA4B;EAC5B,0BAA0B;EAC1B,aAAa;EACb,eAAe;EACf,uBAAuB;EACvB,sBAAsB;EACtB,SAAS;EACT,2BAA2B;AAC7B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;AAClB;;AAEA;;EAEE,0BAA0B;EAC1B,YAAY;EACZ,iBAAiB;EACjB,8BAA8B;AAChC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,oCAAoC;EACpC,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,eAAe;EACf,iBAAiB;AACnB;;AAEA;;EAEE,YAAY;EACZ,aAAa;EACb,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,mBAAmB;EACnB,YAAY;EACZ,YAAY;EACZ,QAAQ;AACV;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,2BAA2B;EAC3B,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,mBAAmB;EACnB,UAAU;EACV,YAAY;EACZ,YAAY;EACZ,yCAAyC;EACzC,yBAAyB;EACzB,iBAAiB;EACjB,6BAA6B;EAC7B,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;;EAEE,mBAAmB;EACnB,eAAe;EACf,8BAA8B;AAChC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,2BAA2B;EAC3B,mBAAmB;EACnB,OAAO;AACT;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,mBAAmB;EACnB,OAAO;EACP,UAAU;EACV,WAAW;EACX,oCAAoC;EACpC,6BAA6B;EAC7B,eAAe;EACf,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,2BAA2B;EAC3B,mBAAmB;EACnB,OAAO;EACP,oBAAoB;;EAEpB,UAAU;EACV,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,8BAA8B;EAC9B,kBAAkB;EAClB,QAAQ;EACR,MAAM;AACR","sourcesContent":["html {\n  background-color: black;\n}\n\nbody {\n  /* background-image: url(\"~../img/pattern.jpg\"); */\n  background-color: black, rgb(36, 26, 91);\n  background-repeat: no-repeat;\n  background-size: 100% 120%;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  box-sizing: border-box;\n  gap: 1rem;\n  margin: 4rem 1rem 0rem 1rem;\n}\n\n.info {\n  margin: 0px 10px 0px 10px;\n}\n\n#cityId {\n  margin-top: 10px;\n}\n\n#submitId,\n#searchbox {\n  margin: 10px 10px 5px 10px;\n  height: 2rem;\n  font-size: medium;\n  background-color: antiquewhite;\n}\n\n.mainbox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 22rem;\n  height: 35rem;\n  background: rgba(103, 185, 220, 0.5);\n  color: antiquewhite;\n  border-radius: 4%;\n}\n\n#temp {\n  font-size: 75px;\n  display: contents;\n}\n\n#dayImg,\n#nightImg {\n  width: 100px;\n  height: 110px;\n  display: block;\n}\n\n.container {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n\n.extra {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 165px;\n  height: 60px;\n  gap: 5px;\n}\n\n.extraInfo {\n  width: 50px;\n  height: 50px;\n  background-size: 100% 100%;\n  box-shadow: 5px 5px #3b356050;\n}\n\n.infoApi {\n  font-weight: 800;\n}\n\n.column .column > p {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: baseline;\n}\n\n#mainbox2 {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.column p {\n  margin: 3px;\n}\n\n.daily {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  width: 90%;\n  height: 50px;\n  padding: 5px;\n  background-color: rgba(52, 52, 254, 0.22);\n  margin: 10px 5px 10px 5px;\n  border-radius: 2%;\n  box-shadow: 5px 5px #3b356050;\n  font-size: large;\n}\n\n.daily img {\n  width: 60px;\n  height: 60px;\n}\n\n#favBox,\n#favBoxBtn {\n  margin: 3% 0% 0% 0%;\n  display: inline;\n  background-color: antiquewhite;\n}\n\n#mainbox3 {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  gap: 3%;\n}\n\n.favCities {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  gap: 3%;\n  width: 90%;\n  height: 18%;\n  background-color: rgb(247, 198, 134);\n  box-shadow: 5px 5px #3b356050;\n  cursor: pointer;\n  color: antiquewhite;\n}\n\n#favImg {\n  height: 70%;\n  width: auto;\n}\n\n#ulid {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  gap: 3%;\n  padding: 5% 5% 5% 5%;\n\n  width: 87%;\n  height: 80%;\n}\n\n.close {\n  color: black;\n  font-size: 30px;\n  background-color: antiquewhite;\n  border-radius: 50%;\n  right: 0;\n  top: 0;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -477,6 +477,139 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/DOMs.js":
+/*!*********************!*\
+  !*** ./src/DOMs.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "cityId": () => (/* binding */ cityId),
+/* harmony export */   "closeBtn": () => (/* binding */ closeBtn),
+/* harmony export */   "countryId": () => (/* binding */ countryId),
+/* harmony export */   "day1": () => (/* binding */ day1),
+/* harmony export */   "day2": () => (/* binding */ day2),
+/* harmony export */   "day3": () => (/* binding */ day3),
+/* harmony export */   "day4": () => (/* binding */ day4),
+/* harmony export */   "day5": () => (/* binding */ day5),
+/* harmony export */   "day6": () => (/* binding */ day6),
+/* harmony export */   "day7": () => (/* binding */ day7),
+/* harmony export */   "dayImg": () => (/* binding */ dayImg),
+/* harmony export */   "extrainfo1": () => (/* binding */ extrainfo1),
+/* harmony export */   "extrainfo2": () => (/* binding */ extrainfo2),
+/* harmony export */   "extrainfo3": () => (/* binding */ extrainfo3),
+/* harmony export */   "extrainfo4": () => (/* binding */ extrainfo4),
+/* harmony export */   "extrainfo5": () => (/* binding */ extrainfo5),
+/* harmony export */   "extrainfo6": () => (/* binding */ extrainfo6),
+/* harmony export */   "favBox": () => (/* binding */ favBox),
+/* harmony export */   "favBoxBtn": () => (/* binding */ favBoxBtn),
+/* harmony export */   "favCityName": () => (/* binding */ favCityName),
+/* harmony export */   "infoApi1": () => (/* binding */ infoApi1),
+/* harmony export */   "infoApi2": () => (/* binding */ infoApi2),
+/* harmony export */   "infoApi3": () => (/* binding */ infoApi3),
+/* harmony export */   "infoApi4": () => (/* binding */ infoApi4),
+/* harmony export */   "infoApi5": () => (/* binding */ infoApi5),
+/* harmony export */   "infoApi6": () => (/* binding */ infoApi6),
+/* harmony export */   "infoApiDaily1": () => (/* binding */ infoApiDaily1),
+/* harmony export */   "infoApiDaily2": () => (/* binding */ infoApiDaily2),
+/* harmony export */   "infoApiDaily3": () => (/* binding */ infoApiDaily3),
+/* harmony export */   "infoApiDaily4": () => (/* binding */ infoApiDaily4),
+/* harmony export */   "infoApiDaily5": () => (/* binding */ infoApiDaily5),
+/* harmony export */   "infoApiDaily6": () => (/* binding */ infoApiDaily6),
+/* harmony export */   "infoApiDaily7": () => (/* binding */ infoApiDaily7),
+/* harmony export */   "infoTitle1": () => (/* binding */ infoTitle1),
+/* harmony export */   "infoTitle2": () => (/* binding */ infoTitle2),
+/* harmony export */   "infoTitle3": () => (/* binding */ infoTitle3),
+/* harmony export */   "infoTitle4": () => (/* binding */ infoTitle4),
+/* harmony export */   "infoTitle5": () => (/* binding */ infoTitle5),
+/* harmony export */   "infoTitle6": () => (/* binding */ infoTitle6),
+/* harmony export */   "infoTitle7": () => (/* binding */ infoTitle7),
+/* harmony export */   "localDate": () => (/* binding */ localDate),
+/* harmony export */   "localTime": () => (/* binding */ localTime),
+/* harmony export */   "mainbox3": () => (/* binding */ mainbox3),
+/* harmony export */   "minDayImg0": () => (/* binding */ minDayImg0),
+/* harmony export */   "minDayImg1": () => (/* binding */ minDayImg1),
+/* harmony export */   "minDayImg2": () => (/* binding */ minDayImg2),
+/* harmony export */   "minDayImg3": () => (/* binding */ minDayImg3),
+/* harmony export */   "minDayImg4": () => (/* binding */ minDayImg4),
+/* harmony export */   "minDayImg5": () => (/* binding */ minDayImg5),
+/* harmony export */   "minDayImg6": () => (/* binding */ minDayImg6),
+/* harmony export */   "nightImg": () => (/* binding */ nightImg),
+/* harmony export */   "searchbox": () => (/* binding */ searchbox),
+/* harmony export */   "submitButton": () => (/* binding */ submitButton),
+/* harmony export */   "temp": () => (/* binding */ temp),
+/* harmony export */   "ulid": () => (/* binding */ ulid),
+/* harmony export */   "weatherInfoId": () => (/* binding */ weatherInfoId)
+/* harmony export */ });
+const searchbox = document.getElementById("searchbox");
+const submitButton = document.getElementById("submitId");
+const localTime = document.getElementById("localTime");
+const localDate = document.getElementById("localDate");
+const cityId = document.getElementById("cityId");
+const countryId = document.getElementById("countryId");
+const weatherInfoId = document.getElementById("weatherInfoId");
+const dayImg = document.getElementById("dayImg");
+const nightImg = document.getElementById("nightImg");
+const temp = document.getElementById("temp");
+
+const extrainfo1 = document.getElementById("extrainfo1");
+const extrainfo2 = document.getElementById("extrainfo2");
+const extrainfo3 = document.getElementById("extrainfo3");
+const extrainfo4 = document.getElementById("extrainfo4");
+const extrainfo5 = document.getElementById("extrainfo5");
+const extrainfo6 = document.getElementById("extrainfo6");
+
+const infoApi1 = document.getElementById("infoApi1");
+const infoApi2 = document.getElementById("infoApi2");
+const infoApi3 = document.getElementById("infoApi3");
+const infoApi4 = document.getElementById("infoApi4");
+const infoApi5 = document.getElementById("infoApi5");
+const infoApi6 = document.getElementById("infoApi6");
+
+const day1 = document.getElementById("day1");
+const day2 = document.getElementById("day2");
+const day3 = document.getElementById("day3");
+const day4 = document.getElementById("day4");
+const day5 = document.getElementById("day5");
+const day6 = document.getElementById("day6");
+const day7 = document.getElementById("day7");
+
+const minDayImg0 = document.getElementById("minDayImg0");
+const minDayImg1 = document.getElementById("minDayImg1");
+const minDayImg2 = document.getElementById("minDayImg2");
+const minDayImg3 = document.getElementById("minDayImg3");
+const minDayImg4 = document.getElementById("minDayImg4");
+const minDayImg5 = document.getElementById("minDayImg5");
+const minDayImg6 = document.getElementById("minDayImg6");
+
+const infoApiDaily1 = document.getElementById("infoApiDaily1");
+const infoApiDaily2 = document.getElementById("infoApiDaily2");
+const infoApiDaily3 = document.getElementById("infoApiDaily3");
+const infoApiDaily4 = document.getElementById("infoApiDaily4");
+const infoApiDaily5 = document.getElementById("infoApiDaily5");
+const infoApiDaily6 = document.getElementById("infoApiDaily6");
+const infoApiDaily7 = document.getElementById("infoApiDaily7");
+
+const infoTitle1 = document.getElementById("infoTitle1");
+const infoTitle2 = document.getElementById("infoTitle2");
+const infoTitle3 = document.getElementById("infoTitle3");
+const infoTitle4 = document.getElementById("infoTitle4");
+const infoTitle5 = document.getElementById("infoTitle5");
+const infoTitle6 = document.getElementById("infoTitle6");
+const infoTitle7 = document.getElementById("infoTitle7");
+
+const mainbox3 = document.getElementById("mainbox3");
+const favBoxBtn = document.getElementById("favBoxBtn");
+const favBox = document.getElementById("favBox");
+const favCityName = document.getElementById("favCityName");
+const ulid = document.getElementById("ulid");
+const closeBtn = document.getElementById("closeBtn");
+
+
+/***/ }),
+
 /***/ "./src/current.js":
 /*!************************!*\
   !*** ./src/current.js ***!
@@ -486,90 +619,81 @@ module.exports = styleTagTransform;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "cityData": () => (/* binding */ cityData),
 /* harmony export */   "enterKey": () => (/* binding */ enterKey),
 /* harmony export */   "extraInfoimg": () => (/* binding */ extraInfoimg),
-/* harmony export */   "getCurrentData": () => (/* binding */ getCurrentData),
 /* harmony export */   "submit": () => (/* binding */ submit)
 /* harmony export */ });
-/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ "./src/index.js");
+/* harmony import */ var _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/DOMs.js */ "./src/DOMs.js");
+/* harmony import */ var _fetch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetch.js */ "./src/fetch.js");
 
 
-//Get data from API and add to DOM
-const getCurrentData = async function (city) {
-  try {
-    const weatherInfo = await (
-      await fetch(
-        `https://api.weatherapi.com/v1/forecast.json?key=1caeeb5e29474c3b855191422230304&q=` +
-          city +
-          `&days=7&aqi=yes&alerts=no`
-      )
-    ).json();
-    // Send the current info to DOM
-    cityId.textContent = `${weatherInfo.location.name},`;
-    countryId.textContent = `${weatherInfo.location.country}`;
-    weatherInfoId.textContent = `${weatherInfo.current.condition.text}`;
-    localTime.textContent = `Local Time: ${weatherInfo.location.localtime.slice(
-      11
-    )}`;
-    localDate.textContent = `Local Date: ${weatherInfo.location.localtime.slice(
-      0,
-      10
-    )}`;
-    temp.append(`${weatherInfo.current.temp_c} °C`);
-    // Create a localtime in "xx" format
-    const lcltime = localTime.textContent.slice(10, 14).replaceAll(":", "");
-    // decide night or day
-    const dayOrNight = await function () {
-      if (lcltime < 19 && lcltime > 6) {
-        _index__WEBPACK_IMPORTED_MODULE_0__.dayImg.style.display = "block";
-        _index__WEBPACK_IMPORTED_MODULE_0__.dayImg.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${weatherInfo.current.condition.icon.slice(
-          -7,
-          -4
-        )}.png`);
-        _index__WEBPACK_IMPORTED_MODULE_0__.nightImg.style.display = "none";
-      } else {
-        _index__WEBPACK_IMPORTED_MODULE_0__.nightImg.style.display = "block";
-        _index__WEBPACK_IMPORTED_MODULE_0__.nightImg.src = __webpack_require__("./src/img/icons/night sync recursive ^\\.\\/.*\\.png$")(`./${weatherInfo.current.condition.icon.slice(
-          -7,
-          -4
-        )}.png`);
-        _index__WEBPACK_IMPORTED_MODULE_0__.dayImg.style.display = "none";
-      }
-    };
-    dayOrNight();
-    infoApi1.textContent = `${weatherInfo.current.wind_kph}kph`;
-    infoApi2.textContent = `${weatherInfo.current.wind_dir}`;
-    infoApi3.textContent = `${weatherInfo.current.feelslike_c}°C`;
-    infoApi4.textContent = `${weatherInfo.current.humidity}%`;
-    infoApi5.textContent = `${weatherInfo.current.cloud}%`;
-    infoApi6.textContent = `${weatherInfo.current.uv}`;
-  } catch (error) {
-    console.log(Error);
+
+
+//Get data from fetch
+const cityData = async function (city) {
+  let data = await (0,_fetch_js__WEBPACK_IMPORTED_MODULE_1__.getData)(city);
+
+  // Send the current info to DOM
+  cityId.textContent = `${data.location.name},`;
+  countryId.textContent = `${data.location.country}`;
+  weatherInfoId.textContent = `${data.current.condition.text}`;
+  localTime.textContent = `Local Time: ${data.location.localtime.slice(11)}`;
+  localDate.textContent = `Local Date: ${data.location.localtime.slice(0, 10)}`;
+  _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.temp.append(`${data.current.temp_c} °C`);
+
+  // Create a localtime in "xx" format
+  const lcltime = localTime.textContent.slice(10, 14).replaceAll(":", "");
+
+  // decide night or day
+  if (lcltime < 19 && lcltime > 6) {
+    dayImg.style.display = "block";
+    dayImg.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.current.condition.icon.slice(
+      -7,
+      -4
+    )}.png`);
+    nightImg.style.display = "none";
+  } else {
+    nightImg.style.display = "block";
+    nightImg.src = __webpack_require__("./src/img/icons/night sync recursive ^\\.\\/.*\\.png$")(`./${data.current.condition.icon.slice(
+      -7,
+      -4
+    )}.png`);
+    dayImg.style.display = "none";
   }
+  //Add extrainfo area data
+  infoApi1.textContent = `${data.current.wind_kph}kph`;
+  infoApi2.textContent = `${data.current.wind_dir}`;
+  infoApi3.textContent = `${data.current.feelslike_c}°C`;
+  infoApi4.textContent = `${data.current.humidity}%`;
+  infoApi5.textContent = `${data.current.cloud}%`;
+  infoApi6.textContent = `${data.current.uv}`;
 };
 
 //Submit the search with enter key
 const enterKey = function () {
   document.addEventListener("keypress", function (KeyboardEvent) {
-    if (KeyboardEvent.key == "Enter" && searchbox.value === "") {
+    if (KeyboardEvent.key == "Enter" && _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.searchbox.value === "") {
       alert("type a city to search box please!");
     } else if (KeyboardEvent.key == "Enter") {
-      getCurrentData(searchbox.value);
-      searchbox.value = "";
-      temp.textContent = "";
+      cityData(_src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.searchbox.value);
+      //  getForecastData(searchbox.value);
+      _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.searchbox.value = "";
+      _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.temp.textContent = "";
     }
   });
 };
 
 //Alert to prevent search with empty text box
 const submit = function () {
-  _index__WEBPACK_IMPORTED_MODULE_0__.submitButton.addEventListener("click", function () {
-    if (searchbox.value === "") {
+  _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.submitButton.addEventListener("click", function () {
+    if (_src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.searchbox.value == "") {
       alert("type a city to search box please!");
     } else {
-      getCurrentData(searchbox.value);
-      searchbox.value = "";
-      temp.textContent = "";
+      cityData(_src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.searchbox.value);
+      //  getForecastData(searchbox.value);
+      _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.searchbox.value = "";
+      _src_DOMs_js__WEBPACK_IMPORTED_MODULE_0__.temp.textContent = "";
     }
   });
 };
@@ -587,6 +711,105 @@ const extraInfoimg = function () {
 
 /***/ }),
 
+/***/ "./src/fav.js":
+/*!********************!*\
+  !*** ./src/fav.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addToFav": () => (/* binding */ addToFav),
+/* harmony export */   "favData": () => (/* binding */ favData),
+/* harmony export */   "remove": () => (/* binding */ remove)
+/* harmony export */ });
+/* harmony import */ var _src_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/fetch */ "./src/fetch.js");
+/* harmony import */ var _src_DOMs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/DOMs.js */ "./src/DOMs.js");
+
+
+
+const favData = async function (city) {
+  let data = await (0,_src_fetch__WEBPACK_IMPORTED_MODULE_0__.getData)(city);
+
+  const box = document.createElement("li");
+  box.classList.add("favCities");
+  const h2 = document.createElement("h2");
+  h2.textContent = city.slice(0, 1).toUpperCase() + city.slice(1).toLowerCase();
+  const img = document.createElement("img");
+  img.id = "favImg";
+  img.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.current.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  const h2c = document.createElement("h2");
+  h2c.textContent = `${data.current.temp_c} °C`;
+  const span = document.createElement("span");
+  const symbl = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.id = "closeBtn";
+  span.appendChild(symbl);
+  box.append(h2);
+  box.append(img);
+  box.append(h2c);
+  box.append(span);
+  ulid.prepend(box);
+};
+
+const addToFav = function () {
+  favBoxBtn.addEventListener("click", function () {
+    if (favBox.value == "") {
+      alert("Type a valid city name!");
+    } else {
+      favData(favBox.value);
+      favBox.value == "";
+    }
+  });
+};
+
+const remove = function () {
+  closeBtn.addEventListener("click", function () {
+    box.remove();
+  });
+};
+
+favData("istanbul");
+favData("Rome");
+favData("Berlin");
+favData("London");
+addToFav();
+remove();
+
+
+/***/ }),
+
+/***/ "./src/fetch.js":
+/*!**********************!*\
+  !*** ./src/fetch.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getData": () => (/* binding */ getData)
+/* harmony export */ });
+const getData = async function (city) {
+  try {
+    const res = await fetch(
+      `https://api.weatherapi.com/v1/forecast.json?key=1caeeb5e29474c3b855191422230304&q=` +
+        city +
+        `&days=7&aqi=yes&alerts=no`
+    );
+    return await res.json();
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+
+/***/ }),
+
 /***/ "./src/forecast.js":
 /*!*************************!*\
   !*** ./src/forecast.js ***!
@@ -596,26 +819,59 @@ const extraInfoimg = function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getForecastData": () => (/* binding */ getForecastData)
+/* harmony export */   "forecastData": () => (/* binding */ forecastData)
 /* harmony export */ });
-/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ "./src/index.js");
+/* harmony import */ var _src_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/fetch */ "./src/fetch.js");
+/* harmony import */ var _src_DOMs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/DOMs.js */ "./src/DOMs.js");
 
 
 
-const getForecastData = async function (city) {
-  try {
-    const forecastData = await (
-      await fetch(
-        `https://api.weatherapi.com/v1/forecast.json?key=1caeeb5e29474c3b855191422230304&q=` +
-          city +
-          `&days=7&aqi=yes&alerts=no`
-      )
-    ).json();
-    //console.log(forecastData);
-    //  infoApiDaily.textContent = "";
-  } catch (error) {
-    console.log(Error);
-  }
+const forecastData = async function (city) {
+  let data = await (0,_src_fetch__WEBPACK_IMPORTED_MODULE_0__.getData)(city);
+  infoApiDaily1.textContent = `${data.forecast.forecastday[0].date}`;
+  infoApiDaily2.textContent = `${data.forecast.forecastday[1].date}`;
+  infoApiDaily3.textContent = `${data.forecast.forecastday[2].date}`;
+  infoApiDaily4.textContent = `${data.forecast.forecastday[3].date}`;
+  infoApiDaily5.textContent = `${data.forecast.forecastday[4].date}`;
+  infoApiDaily6.textContent = `${data.forecast.forecastday[5].date}`;
+  infoApiDaily7.textContent = `${data.forecast.forecastday[6].date}`;
+
+  minDayImg0.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[0].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  minDayImg1.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[1].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  minDayImg2.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[2].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  minDayImg3.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[3].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  minDayImg4.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[4].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  minDayImg5.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[5].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+  minDayImg6.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[6].day.condition.icon.slice(
+    -7,
+    -4
+  )}.png`);
+
+  infoTitle1.textContent = `${data.forecast.forecastday[0].day.avgtemp_c} °C`;
+  infoTitle2.textContent = `${data.forecast.forecastday[1].day.avgtemp_c} °C`;
+  infoTitle3.textContent = `${data.forecast.forecastday[2].day.avgtemp_c} °C`;
+  infoTitle4.textContent = `${data.forecast.forecastday[3].day.avgtemp_c} °C`;
+  infoTitle5.textContent = `${data.forecast.forecastday[4].day.avgtemp_c} °C`;
+  infoTitle6.textContent = `${data.forecast.forecastday[5].day.avgtemp_c} °C`;
+  infoTitle7.textContent = `${data.forecast.forecastday[6].day.avgtemp_c} °C`;
 };
 
 
@@ -776,100 +1032,6 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./src/img/icons/night sync recursive ^\\.\\/.*\\.png$";
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "cityId": () => (/* binding */ cityId),
-/* harmony export */   "countryId": () => (/* binding */ countryId),
-/* harmony export */   "day1": () => (/* binding */ day1),
-/* harmony export */   "day2": () => (/* binding */ day2),
-/* harmony export */   "day3": () => (/* binding */ day3),
-/* harmony export */   "day4": () => (/* binding */ day4),
-/* harmony export */   "day5": () => (/* binding */ day5),
-/* harmony export */   "day6": () => (/* binding */ day6),
-/* harmony export */   "day7": () => (/* binding */ day7),
-/* harmony export */   "dayImg": () => (/* binding */ dayImg),
-/* harmony export */   "extrainfo1": () => (/* binding */ extrainfo1),
-/* harmony export */   "extrainfo2": () => (/* binding */ extrainfo2),
-/* harmony export */   "extrainfo3": () => (/* binding */ extrainfo3),
-/* harmony export */   "extrainfo4": () => (/* binding */ extrainfo4),
-/* harmony export */   "extrainfo5": () => (/* binding */ extrainfo5),
-/* harmony export */   "extrainfo6": () => (/* binding */ extrainfo6),
-/* harmony export */   "infoApi1": () => (/* binding */ infoApi1),
-/* harmony export */   "infoApi2": () => (/* binding */ infoApi2),
-/* harmony export */   "infoApi3": () => (/* binding */ infoApi3),
-/* harmony export */   "infoApi4": () => (/* binding */ infoApi4),
-/* harmony export */   "infoApi5": () => (/* binding */ infoApi5),
-/* harmony export */   "infoApi6": () => (/* binding */ infoApi6),
-/* harmony export */   "infoApiDaily": () => (/* binding */ infoApiDaily),
-/* harmony export */   "localDate": () => (/* binding */ localDate),
-/* harmony export */   "localTime": () => (/* binding */ localTime),
-/* harmony export */   "nightImg": () => (/* binding */ nightImg),
-/* harmony export */   "searchbox": () => (/* binding */ searchbox),
-/* harmony export */   "submitButton": () => (/* binding */ submitButton),
-/* harmony export */   "temp": () => (/* binding */ temp),
-/* harmony export */   "weatherInfoId": () => (/* binding */ weatherInfoId)
-/* harmony export */ });
-/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
-/* harmony import */ var _src_current__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/current */ "./src/current.js");
-/* harmony import */ var _src_forecast__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/forecast */ "./src/forecast.js");
-
-
-
-
-
-
-
-const searchbox = document.getElementById("searchbox");
-const submitButton = document.getElementById("submitId");
-const localTime = document.getElementById("localTime");
-const localDate = document.getElementById("localDate");
-const cityId = document.getElementById("cityId");
-const countryId = document.getElementById("countryId");
-const weatherInfoId = document.getElementById("weatherInfoId");
-const dayImg = document.getElementById("dayImg");
-const nightImg = document.getElementById("nightImg");
-const temp = document.getElementById("temp");
-
-const extrainfo1 = document.getElementById("extrainfo1");
-const extrainfo2 = document.getElementById("extrainfo2");
-const extrainfo3 = document.getElementById("extrainfo3");
-const extrainfo4 = document.getElementById("extrainfo4");
-const extrainfo5 = document.getElementById("extrainfo5");
-const extrainfo6 = document.getElementById("extrainfo6");
-
-const infoApi1 = document.getElementById("infoApi1");
-const infoApi2 = document.getElementById("infoApi2");
-const infoApi3 = document.getElementById("infoApi3");
-const infoApi4 = document.getElementById("infoApi4");
-const infoApi5 = document.getElementById("infoApi5");
-const infoApi6 = document.getElementById("infoApi6");
-
-const day1 = document.getElementById("day1");
-const day2 = document.getElementById("day2");
-const day3 = document.getElementById("day3");
-const day4 = document.getElementById("day4");
-const day5 = document.getElementById("day5");
-const day6 = document.getElementById("day6");
-const day7 = document.getElementById("day7");
-
-const infoApiDaily = document.getElementById("infoApiDaily");
-
-(0,_src_current__WEBPACK_IMPORTED_MODULE_1__.enterKey)();
-(0,_src_current__WEBPACK_IMPORTED_MODULE_1__.submit)();
-(0,_src_current__WEBPACK_IMPORTED_MODULE_1__.getCurrentData)("istanbul");
-(0,_src_current__WEBPACK_IMPORTED_MODULE_1__.extraInfoimg)();
-(0,_src_forecast__WEBPACK_IMPORTED_MODULE_2__.getForecastData)("istanbul");
-
 
 /***/ }),
 
@@ -2100,12 +2262,33 @@ module.exports = __webpack_require__.p + "3951cb8e1c8dd3b23368d56.png";
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
+/* harmony import */ var _src_DOMs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/DOMs.js */ "./src/DOMs.js");
+/* harmony import */ var _src_current__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/current */ "./src/current.js");
+/* harmony import */ var _src_forecast__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/forecast */ "./src/forecast.js");
+/* harmony import */ var _src_fav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/fav */ "./src/fav.js");
+
+
+
+
+
+
+(0,_src_current__WEBPACK_IMPORTED_MODULE_2__.enterKey)();
+(0,_src_current__WEBPACK_IMPORTED_MODULE_2__.submit)();
+(0,_src_current__WEBPACK_IMPORTED_MODULE_2__.extraInfoimg)();
+(0,_src_current__WEBPACK_IMPORTED_MODULE_2__.cityData)("ankara");
+(0,_src_forecast__WEBPACK_IMPORTED_MODULE_3__.forecastData)("Ankara");
+
+})();
+
 /******/ })()
 ;
-//# sourceMappingURL=bundleab5a777ac20a562d646f.js.map
+//# sourceMappingURL=bundle10b5c80353562b235270.js.map
