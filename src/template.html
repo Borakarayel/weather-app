@@ -22,7 +22,8 @@
       <h1 class="info" id="countryId">Country</h1>
       <div class="container">
         <img id="dayImg" />
-        <p class="info" id="temp"></p>
+        <p class="info hide" id="tempc"></p>
+        <p class="info" id="tempf"></p>
         <img id="nightImg" />
       </div>
       <div class="container">
@@ -30,6 +31,7 @@
           <img alt="extra info image" class="extraInfo" id="extrainfo1" />
           <div class="column">
             <p class="infoTitle">Wind:</p>
+            <p class="infoApi hide" id="infoApi0"></p>
             <p class="infoApi" id="infoApi1"></p>
           </div>
         </div>
@@ -44,7 +46,8 @@
           <img alt="extra info image" class="extraInfo" id="extrainfo3" />
           <div class="column">
             <p class="infoTitle">Feels Like:</p>
-            <p class="infoApi" id="infoApi3"></p>
+            <p class="infoApi hide" id="infoApi3"></p>
+            <p class="infoApi" id="infoApi33"></p>
           </div>
         </div>
         <div class="extra">
@@ -70,49 +73,59 @@
         </div>
       </div>
     </div>
-    <!-- <div class="mainbox" id="mainbox2" >
-      <div class="daily" id="day1">
+    <div class="mainbox" id="mainbox2">
+      <div class="daily tempf" id="day1">
         <p id="infoApiDaily1"></p>
         <img src="" alt="" id="minDayImg0" />
-        <h3 id="infoTitle1"></h3>
+        <h3 class="current hide" id="infoTitle1c"></h3>
+        <h3 class="current" id="infoTitle1f"></h3>
       </div>
-      <div class="daily" id="day2">
+      <div class="daily tempf" id="day2">
         <p id="infoApiDaily2"></p>
         <img src="" alt="" id="minDayImg1" />
-        <h3 id="infoTitle2"></h3>
+        <h3 class="current hide" id="infoTitle2c"></h3>
+        <h3 class="current" id="infoTitle2f"></h3>
       </div>
       <div class="daily" id="day3">
         <p id="infoApiDaily3"></p>
         <img src="" alt="" id="minDayImg2" />
-        <h3 id="infoTitle3"></h3>
+        <h3 class="current hide" id="infoTitle3c"></h3>
+        <h3 class="current" id="infoTitle3f"></h3>
       </div>
       <div class="daily" id="day4">
         <p id="infoApiDaily4"></p>
         <img src="" alt="" id="minDayImg3" />
-        <h3 id="infoTitle4"></h3>
+        <h3 class="current hide" id="infoTitle4c"></h3>
+        <h3 class="current" id="infoTitle4f"></h3>
       </div>
       <div class="daily" id="day5">
         <p id="infoApiDaily5"></p>
         <img src="" alt="" id="minDayImg4" />
-        <h3 id="infoTitle5"></h3>
+        <h3 class="current hide" id="infoTitle5c"></h3>
+        <h3 class="current" id="infoTitle5f"></h3>
       </div>
       <div class="daily" id="day6">
         <p id="infoApiDaily6"></p>
         <img src="" alt="" id="minDayImg5" />
-        <h3 id="infoTitle6"></h3>
+        <h3 class="current hide" id="infoTitle6c"></h3>
+        <h3 class="current" id="infoTitle6f"></h3>
       </div>
       <div class="daily" id="day7">
         <p id="infoApiDaily7"></p>
         <img src="" alt="" id="minDayImg6" />
-        <h3 id="infoTitle7"></h3>
+        <h3 class="current hide" id="infoTitle7c"></h3>
+        <h3 class="current" id="infoTitle7f"></h3>
       </div>
-    </div> -->
+    </div>
     <div class="mainbox" id="mainbox3">
-      <div>
-        <input type="text" id="favBox" />
-        <button type="submit" id="favBoxBtn">Add to favourites!</button>
-      </div>
-      <ul id="ulid" class="ulid" style="background-color: rebeccapurple"></ul>
+      <ul id="ulid">
+        <h3 class="current toggle">Imperial or Metric</h3>
+        <input type="checkbox" id="switch" class="toggle" /><label
+          class="toggle"
+          for="switch"
+          >Toggle</label
+        >
+      </ul>
     </div>
   </body>
 </html>

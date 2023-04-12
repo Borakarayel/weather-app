@@ -40,11 +40,19 @@ export const forecastData = async function (city) {
     -4
   )}.png`);
 
-  infoTitle1.textContent = `${data.forecast.forecastday[0].day.avgtemp_c} °C`;
-  infoTitle2.textContent = `${data.forecast.forecastday[1].day.avgtemp_c} °C`;
-  infoTitle3.textContent = `${data.forecast.forecastday[2].day.avgtemp_c} °C`;
-  infoTitle4.textContent = `${data.forecast.forecastday[3].day.avgtemp_c} °C`;
-  infoTitle5.textContent = `${data.forecast.forecastday[4].day.avgtemp_c} °C`;
-  infoTitle6.textContent = `${data.forecast.forecastday[5].day.avgtemp_c} °C`;
-  infoTitle7.textContent = `${data.forecast.forecastday[6].day.avgtemp_c} °C`;
+  infoTitle1c.textContent = `${data.forecast.forecastday[0].day.avgtemp_c} °C`;
+  infoTitle2c.textContent = `${data.forecast.forecastday[1].day.avgtemp_c} °C`;
+  infoTitle3c.textContent = `${data.forecast.forecastday[2].day.avgtemp_c} °C`;
+  infoTitle4c.textContent = `${data.forecast.forecastday[3].day.avgtemp_c} °C`;
+  infoTitle5c.textContent = `${data.forecast.forecastday[4].day.avgtemp_c} °C`;
+  infoTitle6c.textContent = `${data.forecast.forecastday[5].day.avgtemp_c} °C`;
+  infoTitle7c.textContent = `${data.forecast.forecastday[6].day.avgtemp_c} °C`;
+
+  infoTitle1f.textContent = `${data.forecast.forecastday[0].day.avgtemp_f} °F`;
+  infoTitle2f.textContent = `${data.forecast.forecastday[1].day.avgtemp_f} °F`;
+  infoTitle3f.textContent = `${data.forecast.forecastday[2].day.avgtemp_f} °F`;
+  infoTitle4f.textContent = `${data.forecast.forecastday[3].day.avgtemp_f} °F`;
+  infoTitle5f.textContent = `${data.forecast.forecastday[4].day.avgtemp_f} °F`;
+  infoTitle6f.textContent = `${data.forecast.forecastday[5].day.avgtemp_f} °F`;
+  infoTitle7f.textContent = `${data.forecast.forecastday[6].day.avgtemp_f} °F`;
 };

@@ -1,10 +1,10 @@
 html {
-  background-color: black;
+  background-color: antiquewhite;
 }
 
 body {
   /* background-image: url("~../img/pattern.jpg"); */
-  background-color: black, rgb(36, 26, 91);
+
   background-repeat: no-repeat;
   background-size: 100% 120%;
   display: flex;
@@ -38,14 +38,14 @@ body {
   align-items: center;
   width: 22rem;
   height: 35rem;
-  background: rgba(103, 185, 220, 0.5);
+  background: rgba(157, 157, 158, 0.835);
   color: antiquewhite;
-  border-radius: 4%;
+  border-radius: 3%;
 }
 
-#temp {
+#tempc,
+#tempf {
   font-size: 75px;
-  display: contents;
 }
 
 #dayImg,
@@ -110,9 +110,9 @@ body {
   width: 90%;
   height: 50px;
   padding: 5px;
-  background-color: rgba(52, 52, 254, 0.22);
+  background-color: rgba(160, 209, 237, 0.501);
   margin: 10px 5px 10px 5px;
-  border-radius: 2%;
+  border-radius: 3%;
   box-shadow: 5px 5px #3b356050;
   font-size: large;
 }
@@ -120,13 +120,6 @@ body {
 .daily img {
   width: 60px;
   height: 60px;
-}
-
-#favBox,
-#favBoxBtn {
-  margin: 3% 0% 0% 0%;
-  display: inline;
-  background-color: antiquewhite;
 }
 
 #mainbox3 {
@@ -140,13 +133,14 @@ body {
 .favCities {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 3%;
-  width: 90%;
+  width: 95%;
   height: 18%;
-  background-color: rgb(247, 198, 134);
+  background-color: rgba(160, 209, 237, 0.501);
   box-shadow: 5px 5px #3b356050;
+  border-radius: 3%;
   cursor: pointer;
   color: antiquewhite;
 }
@@ -161,18 +155,55 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 3%;
-  padding: 5% 5% 5% 5%;
-
+  gap: 2%;
+  padding: 4% 5% 5% 5%;
   width: 87%;
   height: 80%;
 }
 
-.close {
-  color: black;
-  font-size: 30px;
-  background-color: antiquewhite;
+.hide {
+  display: none;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  margin: 0px;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 50px;
+  height: 50px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
   border-radius: 50%;
-  right: 0;
-  top: 0;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #000;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.toggle {
+  margin: 0px;
 }
