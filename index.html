@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How is the weather?</title>
-    <script defer src="bundle3cee9643cc05d932533e.js"></script>
-  </head>
+  <script defer src="bundle77048f536632417854d6.js"></script></head>
   <body id="bodyid">
     <div class="mainbox" id="mainbox1">
       <input
@@ -32,6 +31,7 @@
           <img alt="extra info image" class="extraInfo" id="extrainfo1" />
           <div class="column">
             <p class="infoTitle">Wind:</p>
+            <p class="infoApi hide" id="infoApi0"></p>
             <p class="infoApi" id="infoApi1"></p>
           </div>
         </div>
@@ -46,7 +46,8 @@
           <img alt="extra info image" class="extraInfo" id="extrainfo3" />
           <div class="column">
             <p class="infoTitle">Feels Like:</p>
-            <p class="infoApi" id="infoApi3"></p>
+            <p class="infoApi hide" id="infoApi3"></p>
+            <p class="infoApi" id="infoApi33"></p>
           </div>
         </div>
         <div class="extra">
@@ -73,67 +74,58 @@
       </div>
     </div>
     <div class="mainbox" id="mainbox2">
-      <div class="daily tempc" id="day1">
-        <p id="infoApiDaily1"></p>
-        <img src="" alt="" id="minDayImg0" />
-        <h3 class="hide" id="infoTitle1c"></h3>
-        <h3 class="" id="infoTitle1f"></h3>
-      </div>
       <div class="daily tempf" id="day1">
         <p id="infoApiDaily1"></p>
         <img src="" alt="" id="minDayImg0" />
-        <h3 class="hide" id="infoTitle1c"></h3>
-        <h3 class="" id="infoTitle1f"></h3>
-      </div>
-      <div class="daily tempc" id="day2">
-        <p id="infoApiDaily2"></p>
-        <img src="" alt="" id="minDayImg1" />
-        <h3 class="hide" id="infoTitle2c"></h3>
-        <h3 class="" id="infoTitle2f"></h3>
+        <h3 class="current hide" id="infoTitle1c"></h3>
+        <h3 class="current" id="infoTitle1f"></h3>
       </div>
       <div class="daily tempf" id="day2">
         <p id="infoApiDaily2"></p>
         <img src="" alt="" id="minDayImg1" />
-        <h3 class="hide" id="infoTitle2c"></h3>
-        <h3 class="" id="infoTitle2f"></h3>
+        <h3 class="current hide" id="infoTitle2c"></h3>
+        <h3 class="current" id="infoTitle2f"></h3>
       </div>
       <div class="daily" id="day3">
         <p id="infoApiDaily3"></p>
         <img src="" alt="" id="minDayImg2" />
-        <h3 class="hide" id="infoTitle3c"></h3>
-        <h3 class="" id="infoTitle3f"></h3>
+        <h3 class="current hide" id="infoTitle3c"></h3>
+        <h3 class="current" id="infoTitle3f"></h3>
       </div>
       <div class="daily" id="day4">
         <p id="infoApiDaily4"></p>
         <img src="" alt="" id="minDayImg3" />
-        <h3 class="hide" id="infoTitle4c"></h3>
-        <h3 class="" id="infoTitle4f"></h3>
+        <h3 class="current hide" id="infoTitle4c"></h3>
+        <h3 class="current" id="infoTitle4f"></h3>
       </div>
       <div class="daily" id="day5">
         <p id="infoApiDaily5"></p>
         <img src="" alt="" id="minDayImg4" />
-        <h3 class="hide" id="infoTitle5c"></h3>
-        <h3 class="" id="infoTitle5f"></h3>
+        <h3 class="current hide" id="infoTitle5c"></h3>
+        <h3 class="current" id="infoTitle5f"></h3>
       </div>
       <div class="daily" id="day6">
         <p id="infoApiDaily6"></p>
         <img src="" alt="" id="minDayImg5" />
-        <h3 class="hide" id="infoTitle6c"></h3>
-        <h3 class="" id="infoTitle6f"></h3>
+        <h3 class="current hide" id="infoTitle6c"></h3>
+        <h3 class="current" id="infoTitle6f"></h3>
       </div>
       <div class="daily" id="day7">
         <p id="infoApiDaily7"></p>
         <img src="" alt="" id="minDayImg6" />
-        <h3 class="hide" id="infoTitle7c"></h3>
-        <h3 class="" id="infoTitle7f"></h3>
+        <h3 class="current hide" id="infoTitle7c"></h3>
+        <h3 class="current" id="infoTitle7f"></h3>
       </div>
     </div>
     <div class="mainbox" id="mainbox3">
-      <!-- <div>
-        <input type="text" id="favBox" placeholder="type a city" value="" />
-        <button type="submit" id="favBoxBtn">Add to favourites!</button>
-      </div> -->
-      <ul id="ulid"></ul>
+      <ul id="ulid">
+        <h3 class="current toggle">Imperial or Metric</h3>
+        <input type="checkbox" id="switch" class="toggle" /><label
+          class="toggle"
+          for="switch"
+          >Toggle</label
+        >
+      </ul>
     </div>
   </body>
 </html>
