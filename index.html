@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How is the weather?</title>
-  <script defer src="bundle10b5c80353562b235270.js"></script></head>
+    <script defer src="bundle3cee9643cc05d932533e.js"></script>
+  </head>
   <body id="bodyid">
     <div class="mainbox" id="mainbox1">
       <input
@@ -22,7 +23,8 @@
       <h1 class="info" id="countryId">Country</h1>
       <div class="container">
         <img id="dayImg" />
-        <p class="info" id="temp"></p>
+        <p class="info hide" id="tempc"></p>
+        <p class="info" id="tempf"></p>
         <img id="nightImg" />
       </div>
       <div class="container">
@@ -70,49 +72,68 @@
         </div>
       </div>
     </div>
-    <!-- <div class="mainbox" id="mainbox2" >
-      <div class="daily" id="day1">
+    <div class="mainbox" id="mainbox2">
+      <div class="daily tempc" id="day1">
         <p id="infoApiDaily1"></p>
         <img src="" alt="" id="minDayImg0" />
-        <h3 id="infoTitle1"></h3>
+        <h3 class="hide" id="infoTitle1c"></h3>
+        <h3 class="" id="infoTitle1f"></h3>
       </div>
-      <div class="daily" id="day2">
+      <div class="daily tempf" id="day1">
+        <p id="infoApiDaily1"></p>
+        <img src="" alt="" id="minDayImg0" />
+        <h3 class="hide" id="infoTitle1c"></h3>
+        <h3 class="" id="infoTitle1f"></h3>
+      </div>
+      <div class="daily tempc" id="day2">
         <p id="infoApiDaily2"></p>
         <img src="" alt="" id="minDayImg1" />
-        <h3 id="infoTitle2"></h3>
+        <h3 class="hide" id="infoTitle2c"></h3>
+        <h3 class="" id="infoTitle2f"></h3>
+      </div>
+      <div class="daily tempf" id="day2">
+        <p id="infoApiDaily2"></p>
+        <img src="" alt="" id="minDayImg1" />
+        <h3 class="hide" id="infoTitle2c"></h3>
+        <h3 class="" id="infoTitle2f"></h3>
       </div>
       <div class="daily" id="day3">
         <p id="infoApiDaily3"></p>
         <img src="" alt="" id="minDayImg2" />
-        <h3 id="infoTitle3"></h3>
+        <h3 class="hide" id="infoTitle3c"></h3>
+        <h3 class="" id="infoTitle3f"></h3>
       </div>
       <div class="daily" id="day4">
         <p id="infoApiDaily4"></p>
         <img src="" alt="" id="minDayImg3" />
-        <h3 id="infoTitle4"></h3>
+        <h3 class="hide" id="infoTitle4c"></h3>
+        <h3 class="" id="infoTitle4f"></h3>
       </div>
       <div class="daily" id="day5">
         <p id="infoApiDaily5"></p>
         <img src="" alt="" id="minDayImg4" />
-        <h3 id="infoTitle5"></h3>
+        <h3 class="hide" id="infoTitle5c"></h3>
+        <h3 class="" id="infoTitle5f"></h3>
       </div>
       <div class="daily" id="day6">
         <p id="infoApiDaily6"></p>
         <img src="" alt="" id="minDayImg5" />
-        <h3 id="infoTitle6"></h3>
+        <h3 class="hide" id="infoTitle6c"></h3>
+        <h3 class="" id="infoTitle6f"></h3>
       </div>
       <div class="daily" id="day7">
         <p id="infoApiDaily7"></p>
         <img src="" alt="" id="minDayImg6" />
-        <h3 id="infoTitle7"></h3>
+        <h3 class="hide" id="infoTitle7c"></h3>
+        <h3 class="" id="infoTitle7f"></h3>
       </div>
-    </div> -->
+    </div>
     <div class="mainbox" id="mainbox3">
-      <div>
-        <input type="text" id="favBox" />
+      <!-- <div>
+        <input type="text" id="favBox" placeholder="type a city" value="" />
         <button type="submit" id="favBoxBtn">Add to favourites!</button>
-      </div>
-      <ul id="ulid" class="ulid" style="background-color: rebeccapurple"></ul>
+      </div> -->
+      <ul id="ulid"></ul>
     </div>
   </body>
 </html>
