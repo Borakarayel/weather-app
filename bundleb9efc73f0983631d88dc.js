@@ -852,10 +852,6 @@ const forecastData = async function (city) {
   infoApiDaily1.textContent = `${data.forecast.forecastday[0].date}`;
   infoApiDaily2.textContent = `${data.forecast.forecastday[1].date}`;
   infoApiDaily3.textContent = `${data.forecast.forecastday[2].date}`;
-  infoApiDaily4.textContent = `${data.forecast.forecastday[3].date}`;
-  infoApiDaily5.textContent = `${data.forecast.forecastday[4].date}`;
-  infoApiDaily6.textContent = `${data.forecast.forecastday[5].date}`;
-  infoApiDaily7.textContent = `${data.forecast.forecastday[6].date}`;
 
   minDayImg0.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[0].day.condition.icon.slice(
     -7,
@@ -869,38 +865,14 @@ const forecastData = async function (city) {
     -7,
     -4
   )}.png`);
-  minDayImg3.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[3].day.condition.icon.slice(
-    -7,
-    -4
-  )}.png`);
-  minDayImg4.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[4].day.condition.icon.slice(
-    -7,
-    -4
-  )}.png`);
-  minDayImg5.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[5].day.condition.icon.slice(
-    -7,
-    -4
-  )}.png`);
-  minDayImg6.src = __webpack_require__("./src/img/icons/day sync recursive ^\\.\\/.*\\.png$")(`./${data.forecast.forecastday[6].day.condition.icon.slice(
-    -7,
-    -4
-  )}.png`);
 
   infoTitle1c.textContent = `${data.forecast.forecastday[0].day.avgtemp_c} °C`;
   infoTitle2c.textContent = `${data.forecast.forecastday[1].day.avgtemp_c} °C`;
   infoTitle3c.textContent = `${data.forecast.forecastday[2].day.avgtemp_c} °C`;
-  infoTitle4c.textContent = `${data.forecast.forecastday[3].day.avgtemp_c} °C`;
-  infoTitle5c.textContent = `${data.forecast.forecastday[4].day.avgtemp_c} °C`;
-  infoTitle6c.textContent = `${data.forecast.forecastday[5].day.avgtemp_c} °C`;
-  infoTitle7c.textContent = `${data.forecast.forecastday[6].day.avgtemp_c} °C`;
 
   infoTitle1f.textContent = `${data.forecast.forecastday[0].day.avgtemp_f} °F`;
   infoTitle2f.textContent = `${data.forecast.forecastday[1].day.avgtemp_f} °F`;
   infoTitle3f.textContent = `${data.forecast.forecastday[2].day.avgtemp_f} °F`;
-  infoTitle4f.textContent = `${data.forecast.forecastday[3].day.avgtemp_f} °F`;
-  infoTitle5f.textContent = `${data.forecast.forecastday[4].day.avgtemp_f} °F`;
-  infoTitle6f.textContent = `${data.forecast.forecastday[5].day.avgtemp_f} °F`;
-  infoTitle7f.textContent = `${data.forecast.forecastday[6].day.avgtemp_f} °F`;
 };
 
 
@@ -2397,4 +2369,4 @@ _src_DOMs_js__WEBPACK_IMPORTED_MODULE_1__.switch1.addEventListener("click", func
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle77048f536632417854d6.js.map
+//# sourceMappingURL=bundleb9efc73f0983631d88dc.js.map
