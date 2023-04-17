@@ -53,18 +53,10 @@ export const infoApiDaily7 = document.getElementById("infoApiDaily7");
 export const infoTitle1c = document.getElementById("infoTitle1c");
 export const infoTitle2c = document.getElementById("infoTitle2c");
 export const infoTitle3c = document.getElementById("infoTitle3c");
-export const infoTitle4c = document.getElementById("infoTitle4c");
-export const infoTitle5c = document.getElementById("infoTitle5c");
-export const infoTitle6c = document.getElementById("infoTitle6c");
-export const infoTitle7c = document.getElementById("infoTitle7c");
 
 export const infoTitle1f = document.getElementById("infoTitle1f");
 export const infoTitle2f = document.getElementById("infoTitle2f");
 export const infoTitle3f = document.getElementById("infoTitle3f");
-export const infoTitle4f = document.getElementById("infoTitle4f");
-export const infoTitle5f = document.getElementById("infoTitle5f");
-export const infoTitle6f = document.getElementById("infoTitle6f");
-export const infoTitle7f = document.getElementById("infoTitle7f");
 
 export const mainbox3 = document.getElementById("mainbox3");
 export const favBoxBtn = document.getElementById("favBoxBtn");
