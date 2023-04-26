@@ -3,8 +3,6 @@ html {
 }
 
 body {
-  /* background-image: url("~../img/pattern.jpg"); */
-
   background-repeat: no-repeat;
   background-size: 100% 120%;
   display: flex;
